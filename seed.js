@@ -10,7 +10,7 @@ const db = mysql.createConnection({
 });
 
 const seedUser = async () => {
-  const email = "faizan@gmail.com";
+  const email = "test2@gmail.com";
   const plainPassword = "123";
   const hashedPassword = await bcrypt.hash(plainPassword, 10);
 
